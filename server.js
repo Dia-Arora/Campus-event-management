@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection
-mongoose.connect('mongodb+srv://admin:admin123@cluster0.fbtrqd1.mongodb.net/campus_events?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://admin:admin123@sample.com/campus_events?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
